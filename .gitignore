@@ -2,10 +2,15 @@
 *.so
 *~
 ext/jemalloc/*.c
-ext/jemalloc/jemalloc-3.0.0/
+ext/jemalloc/jemalloc-5.3.0/
 ruby/Makefile
+ext/jemalloc/mkmf.log
+lib/jemalloc.bundle
 *.5
 *.8
 *.6
 _obj
 _test
+.DS_Store
+tags
+
