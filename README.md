@@ -33,7 +33,9 @@ Execute your application with `je` command, which is contained in `je` gem. Exam
 
 # Limitation
 
-Currently, this gem works only on Linux and Mac OS X.
+Currently, this gem works only on Linux ~~and Mac OS X~~.
+
+UPD: Making this gem work on Mac OS is tricky since it relies on a `DYLD_INSERT_LIBRARIES` environment variable and newer Mac OS versions [block this variable from being passed to processes](https://stackoverflow.com/a/48478771).
 
 # License
 
